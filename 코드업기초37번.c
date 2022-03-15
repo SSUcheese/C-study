@@ -3,10 +3,10 @@
 
 int main(void)
 {
-    int num;
-    scanf("%d", &num);
+    int word;
 
-    printf("%o", num);
+    scanf("%d", &word);
+    printf("%c", word);
 
     return 0;
 }

@@ -3,10 +3,9 @@
 
 int main(void)
 {
-    int num;
-    scanf("%d", &num);
-
-    printf("%o", num);
+    int a;
+    scanf("%d", &a);
+    printf("%d", -a);
 
     return 0;
 }
